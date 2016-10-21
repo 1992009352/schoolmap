@@ -1,0 +1,200 @@
+@charset "gb2312";
+*{padding:0; margin:0;}
+body{background:url(uumq_bj2.jpg) bottom center no-repeat #f7f7f7; font-family:"Î¢ÈíÑÅºÚ", "ËÎÌå", Arial; font-size:12px; line-height:24px; color:#2c2c2c;}
+ul{list-style:none;}
+img{border:none;}
+
+#top{height:163px; background:url(uumq_01.jpg) top center no-repeat;}
+
+#nav{height:45px; background-color:#1276d9;}
+#nav div{width:1000px; height:45px; margin:0 auto;}
+#nav div a{float:left; width:84px; line-height:45px; height:45px; margin-right:14px; background:url(uumq_03.jpg) 0 0 no-repeat; text-indent:-999em;}
+#nav div a.active, #nav div a.hover{background:url(uumq2_03.jpg) 0 0 no-repeat;}
+#nav #na1{width:100px;}
+#nav #na2{background-position:-100px 0;}
+#nav #na3{background-position:-184px 0;}
+#nav #na4{background-position:-268px 0;}
+#nav #na5{background-position:-352px 0;}
+#nav #na6{background-position:-438px 0;}
+#nav #na7{background-position:-520px 0;}
+#nav #na8{background-position:-606px 0;}
+#nav #na9{background-position:-688px 0;}
+#nav #na10{background-position:-772px 0;}
+#nav #na11{background-position:-856px 0;}
+#nav #na12{width:56px; background-position:-940px 0;}
+
+#main-box{background:url(uumq_bj.jpg) top center no-repeat; padding-top:15px;}
+#main-body{width:1000px; margin:0 auto;}
+#main-left{float:left; width:675px;}
+#main-right{float:right; width:315px;}
+#main-left-third {float:left; width:1000px;}
+
+.left-inner-ctitle{background:url(uumq_cname.jpg) 0 -8px no-repeat; height:35px;}
+.left-inner-ctitle a{float:right; background:url(uumq_icon.jpg) 0 -10px no-repeat; width:50px; height:35px; margin-right:10px;}
+
+#hotnews-box{background-color:#fff; height:370px; width:1000px; margin:0 auto; overflow:hidden;}
+#picnews-box{width:420px; height:350px; overflow:hidden; float:left; display:inline; margin:10px 0 0 8px;}
+.pic-show-box{overflow:hidden; height:280px; width:419px; position:relative; margin-bottom:4px;}
+.pic-item-box{width:10000px; position:relative;}
+.pic-item-box a{float:left;}
+.pic-item-box img{width:419px; height:280px;}
+.txt-bg{position:absolute; bottom:0; background-color:#000; opacity:0.5; -moz-opacity:0.5; -webkit-opacity:0.5; filter:alpha(opacity=50); height:30px; width:419px;}
+.txt-box{position:absolute; bottom:0; text-align:center; height:30px; width:419px; overflow:hidden;}
+.txt-box a{color:#fff; text-decoration:none; line-height:30px; display:none;}
+
+.pic-icon-box{width:450px;}
+.pic-icon-box div{float:left; display:inline; cursor:pointer; border:solid 1px #eee; padding:2px; margin-right:5px; opacity:0.5; -moz-opacity:0.5; -webkit-opacity:0.5; filter:alpha(opacity=50);}
+.pic-icon-box div.active{border-color:#999; opacity:1; -moz-opacity:1; -webkit-opacity:1; filter:alpha(opacity=100);}
+.pic-icon-box div img{width:95px; height:60px;}
+
+#news-box{padding-left:450px; padding-top:10px; padding-right:8px;}
+#news-box h2{border-bottom:solid 1px #c1c1c1;}
+#news-box h2 a{}
+#news-box .top-news-detail{padding-left:0; border-bottom:dashed 1px #b3b3b3; margin-bottom:8px;}
+#news-box .top-news-detail h2{border:none;}
+#news-box .top-news-detail p{height:55px;}
+
+#key-banner{ height:120px; margin-top:10px; overflow:hidden;}
+#key-banner img{border:none; width:675px; height:109px;}
+
+.left-ctitle{background:url(uumq_cname.jpg) 10px -200px no-repeat #f7f7f7; height:50px;}
+.left-ctitle a{float:right; height:50px; width:50px; background:url(uumq_icon.jpg) 0 -50px no-repeat;}
+
+.left-box{border:solid 1px #ebebeb; padding:10px; background-color:#fff;}
+
+.top-news{border-bottom:dashed 1px #b3b3b3; margin-bottom:8px;}
+.top-news-pic{float:left; background:url(uumq_22.jpg) bottom center no-repeat; padding-bottom:11px;}
+.top-news-pic img{padding:2px; width:200px; height:112px;}
+.top-news-detail{padding-left:220px;}
+.top-news-detail h2{height:40px; overflow:hidden;}
+.top-news-detail h2 a{color:#024a92; text-decoration:none; font-size:16px; line-height:40px;}
+.top-news-detail p{height:72px; overflow:hidden;}
+.top-news-detail p span{color:#737373;}
+.top-news-detail .left-share{height:28px; padding-left:275px; line-height:16px; overflow:hidden;}
+
+.left-news-list{}
+.left-news-list li{float:left; width:320px; height:26px; overflow:hidden; display:inline;}
+.left-news-list a{color:#2c2c2c; text-decoration:none; float:left; padding-left:12px; background:url(uumq_icon.jpg) 0 -113px no-repeat;}
+.left-news-list a:hover{text-decoration:underline;}
+
+#xgzx-ctitle{background-position:10px -200px;}
+#xgzx-box{height:300px; overflow:hidden;}
+#xsdt-ctitle{background-position:10px -250px;}
+#xsdt-box{height:300px; overflow:hidden;}
+#mtlg-ctitle{background-position:10px -300px;}
+#mtlg-box{height:250px; overflow:hidden;}
+
+#sch-edu{height:190px; margin-top:10px;}
+#sch-box{float:left; width:315px; border-right:solid 1px #f4f4f4;}
+#sch-box .left-inner-ctitle{background-position:0 -58px;}
+
+#edu-box{float:right; width:315px;}
+#edu-box .left-inner-ctitle{background-position:0 -108px;}
+
+.right-top-box{border:solid 1px #eaeaea; background-color:#f3f3f3; height:370px; overflow:hidden; }
+.right-top-box h2{height:35px; background:url(uumq_cname.jpg) 10px -155px no-repeat #f3f3f3; border-top:solid 3px #05498b;}
+.right-top-box h2 a{float:right; height:35px; width:50px; background:url(uumq_icon.jpg) 0 -160px no-repeat;}
+
+.right-top-list{padding:0 8px; background-color:#f3f3f3;}
+.right-top-list li{height:38px; overflow:hidden; border-bottom:dashed 1px #afafaf;}
+.right-top-list li a{color:#464646; text-decoration:none; line-height:35px; padding-left:2px; float:left; height:35px; overflow:hidden;}
+.right-top-list li a:hover{text-decoration:underline;}
+.right-top-list li a.new{background:url(new.jpg) right center no-repeat; padding-right:35px;}
+
+.right-box{border:solid 5px #e2ebf4; margin-top:8px; padding:10px; background-color:#fff;}
+.right-ctitle{height:30px; width:280px; background:url(uumq_cname_r2.jpg) 0 0 no-repeat; margin-bottom:8px;}
+.right-ctitle a{float:right; height:30px; width:50px;}
+
+.right-list{}
+.right-list li{height:26px; overflow:hidden; padding-left:12px; background:url(uumq_icon.jpg) 0 -113px no-repeat;}
+.right-list li a{color:#2c2c2c; text-decoration:none;}
+.right-list li a:hover{text-decoration:underline;}
+
+.video-list{height:156px;}
+.video-list li{padding-left:25px; background:url(uumq_icon.jpg) 0 -210px no-repeat;}
+
+#zhxw-box .right-ctitle{background:url(uumq_cname_r22.jpg) 0 0 no-repeat;}
+#zhxw-box .right-list{height:182px; overflow:hidden;}
+
+#dzxb-box a img{width:285px; height:403px;}
+
+#dzxb-box .right-ctitle{background-position:0 -30px;}
+.latest-paper .paper-img{float:left; padding-right:10px;}
+.latest-paper .paper-title{display:block; height:50px; line-height:50px; color:#024a92; text-decoration:none; font-size:16px; overflow:hidden;}
+.latest-paper p{height:72px; overflow:hidden;}
+.latest-paper p a{color:#024a92; text-decoration:none;}
+.latest-paper p a:hover{text-decoration:underline;}
+
+.paper-list{height:105px; overflow:hidden;}
+.paper-list li{float:left; width:140px;}
+.paper-list li a{display:inline-block; padding-left:15px; background:url(uumq_icon.jpg) 0 -262px no-repeat;}
+
+#wyby-box .right-ctitle{background-position:0 -60px;}
+
+#reader-back-title{height:30px; background-color:#edf1f4; padding-left:8px;}
+#reader-back-title a{float:right; height:20px; width:50px; margin-top:8px; background:url(uumq_cname_r2.jpg) -230px -95px no-repeat;}
+#reader-title, #back-title{display:inline-block; height:22px; width:80px; background:url(uumq_cname_r2.jpg) -10px -95px no-repeat; cursor:pointer; margin-top:8px;}
+#back-title{width:60px; background-position:-95px -95px;}
+#reader-title.active{background-position:-10px -125px;}
+#back-title.active{background-position:-95px -125px;}
+
+.reader-back-top{border-bottom:dashed 1px #b2b2b2; height:115px; overflow:hidden; margin-bottom:8px;}
+.reader-back-top a{display:block; height:40px; overflow:hidden; line-height:40px; color:#05498b; text-decoration:none; font-size:14px;}
+.reader-back-top a:hover{text-decoration:underline;}
+.reader-back-top p{height:48px; overflow:hidden;}
+.reader-back-top span{display:block; height:24px; overflow:hidden; color:#9f9f9f;}
+.read-back-list{height:160px; overflow:hidden;}
+.read-back-list li{padding-left:20px; background:url(uumq_icon.jpg) 5px -533px no-repeat;}
+
+#sc-view-box{width:1000px; margin:0 auto;}
+#sc-view-box .left-ctitle{background-position:10px -350px;}
+#marquee-box{border:solid 1px #ebebeb; background-color:#fff; height:185px;}
+#marquee-right-arr{float:right; width:20px; height:50px; margin-top:70px; background:url(uumq_icon.jpg) -38px -480px no-repeat;}
+#marquee-left-arr{float:left; width:20px; height:50px; margin-top:70px; background:url(uumq_icon.jpg) 5px -480px no-repeat;}
+#marquee-window{width:920px; margin-left:40px; height:150px; overflow:hidden; margin-top:30px; position:relative;}
+#marquee-item-list{width:10000px; height:150px; position:relative;}
+#marquee-item-list li{float:left; width:186px; height:150px;}
+#marquee-item-list li img{border:solid 1px #f8f8f8; padding:2px; width:165px; height:105px;}
+#marquee-item-list li a{color:#01458c; text-decoration:none; line-height:30px; text-align:center; display:inline-block; width:172px; height:145px; overflow:hidden;}
+#marquee-item-list li a:hover{text-decoration:underline;}
+
+#link-box{width:1000px; margin:0 auto; background:url(uumq_icon.jpg) 0 -300px repeat-x; height:177px; overflow:hidden;}
+#link-box h2{height:40px; background:url(uumq_cname.jpg) 15px -395px no-repeat #f7f7f7; width:156px; margin:0 auto;}
+#link-box p{padding:20px 10px;}
+#link-box p a{color:#2c2c2c; text-decoration:none; padding:0 8px;}
+#link-box p a:hover{text-decoration:underline;}
+
+#footer{height:120px; line-height:30px; text-align:center; margin-top:20px;}
+#footer a{padding:0 8px; color:#2c2c2c; text-decoration:none;}
+#footer a:hover{text-decoration:underline;}
+
+#cur-path-box{height:50px; width:1000px; margin:0 auto; margin-bottom:10px; border:solid 1px #eef1f0; position:relative;}
+#cur-path-bg{background-color:#fff; opacity:0.5; -moz-opacity:0.5; -webkit-opacity:0.5; filter:alpha(opacity=50); position:absolute; left:0; top:0; height:50px; width:1000px; z-index:0;}
+#cur-path{background:url(uumq_loc.jpg) 15px 18px no-repeat; padding-left:35px; height:50px; line-height:50px; position:absolute;}
+#cur-path a{color:#525252; text-decoration:none;}
+#cur-path a:hover{text-decoration:underline;}
+
+.secList{height:530px;}
+.secList li{background:url(uumq_icon.jpg) 0 -560px no-repeat; padding-left:15px; height:30px; line-height:30px; overflow:hidden; font-size:14px;}
+.secList span{float:right; color:#6d6d6d;}
+.secList a{color:#2c2c2c; text-decoration:none;}
+.secList a:hover{text-decoration:underline;}
+
+.picList{height:680px;}
+.picList li{height:150px; width:200px; float:left; overflow:hidden; display:inline; margin-right:16px; margin-bottom:18px; text-align:center;}
+.picList li a{color:#464646; text-decoration:none; font-size:14px;}
+.picList li a:hover{text-decoration:underline;}
+.picList .top-news-pic{float:none;}
+
+.pageChanger{margin-top:15px; text-align:center; border:solid 1px #e4e4e4; background-color:#f7f7f7; line-height:30px;}
+.pageChanger a{color:#333; text-decoration:none;}
+.pageChanger a:hover{color:#f00; text-decoration:underline;}
+.pageChanger input{width:24px;}
+
+
+
+.tit-title{font-size:20px; color:#05498b; line-height:26px; padding:20px 0 15px 0; text-align:center; border-bottom:dashed 1px #b3b3b3;}
+.tit-attr{width:450px; margin:0 auto; text-align:center; color:#696969; padding-top:8px; height:40px;}
+.tit-attr span{padding:0 4px;}
+.tit-attr .jiathis_style{ float:right; padding-top:4px;}
+.tit-content{font-size:14px; line-height:30px; overflow:hidden;}
